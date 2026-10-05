@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table & Thyme</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <p class="eyebrow">Table & Thyme</p>
+        <h1>Today's Menu</h1>
+        <p>Choose your favourites and we will prepare the bill.</p>
+      </header>
+
+      <section class="menu-actions" aria-label="Menu actions">
+        <button class="select-all" id="select-all" type="button">Select All</button>
+        <button class="select-all" id="deselect-all" type="button">Deselect All</button>
+      </section>
+
+      <section id="menu" aria-label="Restaurant menu"></section>
+
+      <button class="place-order" id="place-order" type="button" disabled>
+        Place Order
+      </button>
+    </main>
+    <script src="menu.js"></script>
+  </body>
+</html>

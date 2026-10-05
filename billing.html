@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bill | Table & Thyme</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container" id="bill-page">
+      <header class="hero">
+        <p class="eyebrow">Table & Thyme</p>
+        <h1>Your Bill</h1>
+      </header>
+
+      <section class="bill" aria-label="Order bill">
+        <div class="bill-headings">
+          <span>Item</span>
+          <span>Qty</span>
+          <span>Total</span>
+        </div>
+        <div id="bill-items"></div>
+        <div class="grand-total">
+          <span>Total</span>
+          <strong id="grand-total"></strong>
+        </div>
+      </section>
+
+      <button class="place-order" id="pay-now" type="button">Pay Now</button>
+    </main>
+    <script src="billing.js"></script>
+  </body>
+</html>
